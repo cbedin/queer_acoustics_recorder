@@ -1,0 +1,94 @@
+/* put this under Look and Feel > Style > Custom CSS */
+
+#controls {
+    display: flex;
+    margin-top: 1rem;
+    max-width: 28em;
+    margin-left: auto;
+    margin-right: auto;
+  } 
+  
+  #playback{
+      max-width: 28em;
+        margin-left: auto;
+        margin-right: auto;
+  }
+  
+  #sen{
+      max-width: 28em;
+        margin-left: auto;
+        margin-right: auto;
+      text-align: center;
+  }
+  
+  
+  .timer{
+        display: flex;
+      max-width: 28em;
+        height: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0.25rem;
+        background-color: lightgray;
+  }
+  
+  .bar{
+        display: block;
+        width: 0%;
+        height: 100%;
+  }
+  
+  #timer-bar {
+    background-color: orange;
+  }
+  
+  #prog-bar {
+    background-color: blue;
+  }
+  
+  button {
+    flex-grow: 1;
+    height: 3.5rem;
+    width: 2rem;
+    border: none;
+    border-radius: 0.15rem;
+    background: #B9CFF0;
+    margin-left: 2px;
+    box-shadow: inset 0 -0.15rem 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  button:hover, button:focus {
+    outline: none;
+    background: #8EADDB;
+  }
+  
+  button::-moz-focus-inner {
+    border: 0;
+  }
+  
+  button:active {
+    box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.2);
+    line-height: 3rem;
+  }
+  
+  button:disabled {
+    pointer-events: none;
+    background: lightgray;
+  }
+  
+  button:first-child {
+    margin-left: 0;
+  }
+  
+  audio {
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+  }
