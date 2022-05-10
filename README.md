@@ -33,7 +33,7 @@ to add a step for speakers to calibrate their recording environemnt
 3. Go to "Look and Feel" on the left-hand side of your survey builder, then go
 to "Style" and copy the code from `recorder.css` into the "Custom CSS" box
 
-4. Add `upload.php` to your remote server---this is the script that will recieve
+4. Add `upload.php` to your remote server—this is the script that will recieve
 audio files as they are recorded by the survey
 
 ## Customizing
@@ -52,10 +52,10 @@ There's also a couple of things I ran into that I think are good to note for
 anyone using this recorder:
 
 * If you want to use the setup instructions I gave speakers, they're in
-`speaker_instructions.txt`---I put this text right above the test recorder
+`speaker_instructions.txt`—I put this text right above the test recorder
 
 * I recommend adding a path where speakers can opt to have more time per
-sentence---I got feedback from a speaker who turned out to be dyslexic, and I
+sentence—I got feedback from a speaker who turned out to be dyslexic, and I
 was unable to use his recordings because he wasn't able to read the sentences at
 the pace they were coming. After this happened, I added a branch to my survey
 where speakers could either opt to take either four seconds per sentence or six
